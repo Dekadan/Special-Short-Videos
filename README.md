@@ -11,6 +11,7 @@ TikTok'ta viral olan **ortaçağ / fantasy dünya** kısa videoları (7-8 sn) i�
 | [03-prompt-kutuphanesi.md](03-prompt-kutuphanesi.md) | Görsel üretim promptları + video hareket promptları (kopyala-yapıştır hazır) |
 | [04-caption-kutuphanesi.md](04-caption-kutuphanesi.md) | Viral karakterli caption'lar, hook formülleri, hashtag stratejisi |
 | [05-icerik-takvimi.md](05-icerik-takvimi.md) | İlk 30 günlük içerik takvimi + seri konseptleri |
+| [06-uretim-gunlugu.md](06-uretim-gunlugu.md) | Üretilen videoların kaydı: prompt/seed/model + öğrenilen dersler |
 
 ## 🎯 Ana Strateji (TL;DR)
 
