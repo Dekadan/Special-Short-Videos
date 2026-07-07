@@ -40,6 +40,32 @@ Hashtag: `#medievaltiktok #castlecore #fantasyworld #goldenbrown #pov`
 
 ---
 
+## #002 — Kuzey Geçitleri, Gün 1: Karlı Uçurum Yolu
+
+| Alan | Değer |
+|---|---|
+| Tarih | 2026-07-07 |
+| Bölge | Kuzey Geçitleri |
+| Format | At POV — imza (B1 Kuzey + C1) |
+| Durum | ✅ Üretildi |
+
+**Pipeline adımları:**
+1. **Görsel:** `cinematic_studio_2_5`, 9:16, 1K, 4 varyant. Işık/hava tarifi (#001 dersi) prompt'un başında: "Cold overcast winter light... light snow drifting... freezing mist".
+2. **Denetim:** 4 varyanttan n2 (eldivenli eller — insan öğesi kuralı) elendi. **Seçilen:** job `2d1be4cd-c190-4990-937d-0399274ef489` (seed 316302) — ileri giden net patika, siluet kuleler sisin ardında, siyah kulaklar çapa, en iyi loop.
+3. **Animasyon:** `kling3_0`, 8 sn, std, ses kapalı → job `2e55b474-0126-4fbf-97d8-fa0971b57dad`. Yürüyüş ilerledikçe sis açılıp kuleleri ortaya çıkarıyor — reveal + forward motion aynı planda, çok güçlü.
+4. **Upscale:** `bytedance` aigc 2K 24fps → job `7637565d-c83a-4a64-af2f-2b01222313d9`.
+
+**Önerilen caption (yayında):**
+```
+Day 52 — Third day on the northern pass. The cold doesn't bother the horse.
+It bothers me that the citadel keeps looking closer, but never arrives.
+
+Gün 52 — Kuzey geçidinde üçüncü gün. Kale yaklaşıyor gibi, ama asla varmıyorum.
+```
+Hashtag: `#medievaltiktok #castlecore #darkfantasy #fantasyworld #pov`
+
+---
+
 ## Öğrenilen Dersler (pipeline notları)
 
 - **Golden hour prompt'un başında olmalı.** Stil çapasının sonundaki "golden hour" tek başına yetmiyor; sahne cümlesinin başına açık ışık tarifi ("low warm sunset sun, long shadows") koyunca model çok daha iyi tutuyor.
@@ -49,6 +75,6 @@ Hashtag: `#medievaltiktok #castlecore #fantasyworld #goldenbrown #pov`
 - **Seedance 2.0 pahalı** (36 kredi) — kling3_0 std daha ekonomik ve bu iş için yeterli.
 
 ## Sıradaki Üretim Kuyruğu
-- [ ] #002 — Kuzey Geçitleri: karlı uçurum yolu (B1 Kuzey + C1)
+- [x] #002 — Kuzey Geçitleri: karlı uçurum yolu (B1 Kuzey + C1) ✅
 - [ ] #003 — Sis Krallığı: söğüt + sisli kale reveal (B1 Sis + C2)
 - [ ] #004 — Altın Vadiler varyant: aynı kapı, sisli sabah (varyasyon matrisi testi)
